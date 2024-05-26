@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "asciiart-logo": "^0.2.7",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.6",
+    "mysql2": "^3.9.7"
+  }
+}
