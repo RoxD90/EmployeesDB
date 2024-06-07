@@ -1,4 +1,4 @@
-use employees;
+use workers;
 
 INSERT INTO department
     (name)
@@ -23,11 +23,11 @@ VALUES
 INSERT INTO employee
     (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Sam', 'Mosley', 1, NULL),
+    ('Sam', 'Mosley', 1, 1),
     ('Mike', 'Tyson', 2, 1),
-    ('Carly', 'Simpson', 3, NULL),
+    ('Carly', 'Simpson', 3, 3),
     ('Kevin', 'Hart', 4, 3),
-    ('Taylor', 'Swift', 5, NULL),
+    ('Taylor', 'Swift', 5, 5),
     ('David', 'Cloney', 6, 5),
-    ('Drew', 'Brees', 7, NULL),
+    ('Drew', 'Brees', 7, 7),
     ('Tom', 'Brady', 8, 7);
